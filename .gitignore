@@ -1,0 +1,16 @@
+# Android
+*.iml
+.gradle/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Node
+backend/node_modules/
+backend/data/db.json

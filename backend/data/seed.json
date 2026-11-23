@@ -1,0 +1,26 @@
+{
+  "lineas": [
+    { "id": 1, "titulo": "Bioproductos y Biorrefinería", "descripcion": "Desarrollo de materiales sustentables, adhesivos verdes y compuestos de alto valor derivados de biomasa forestal." },
+    { "id": 2, "titulo": "Edificación de Alto Rendimiento en Madera", "descripcion": "Innovación en sistemas constructivos industrializados, Madera Contralaminada (CLT) y comportamiento estructural." },
+    { "id": 3, "titulo": "Gestión e Inteligencia Forestal Sustentable", "descripcion": "Monitoreo mediante sensores, modelamiento de crecimiento y optimización de la cadena de suministro forestal." }
+  ],
+  "investigadores": [
+    { "id": 1, "idLinea": 1, "nombre": "Dra. Sofía Soto", "especialidad": "Química de Polímeros y Lignina" },
+    { "id": 2, "idLinea": 1, "nombre": "Dr. Marcelo Tapia", "especialidad": "Biomateriales e Nano-celulosa" },
+    { "id": 3, "idLinea": 2, "nombre": "Ing. Carlos Mendoza", "especialidad": "Ingeniería Estructural y Paneles CLT" },
+    { "id": 4, "idLinea": 2, "nombre": "Dra. Valentina Rojas", "especialidad": "Eficiencia Energética y Hábitat" },
+    { "id": 5, "idLinea": 3, "nombre": "Dr. Esteban Silva", "especialidad": "Geoinformática y Biomasa Forestal" }
+  ],
+  "proyectos": [
+    { "id": 1, "idInvestigador": 1, "titulo": "Proyecto Alpha: Resinas Ecológicas libres de Formaldehído", "anio": 2024, "estado": "En Ejecución" },
+    { "id": 2, "idInvestigador": 2, "titulo": "Aislamiento Térmico mediante Aerogeles de Celulosa", "anio": 2023, "estado": "Finalizado" },
+    { "id": 3, "idInvestigador": 3, "titulo": "Sistema de Conexiones Sísmicas para Edificios de Madera en Altura", "anio": 2024, "estado": "En Ejecución" },
+    { "id": 4, "idInvestigador": 4, "titulo": "Prototipo de Vivienda Social Sustentable de Huella Cero", "anio": 2022, "estado": "Finalizado" },
+    { "id": 5, "idInvestigador": 5, "titulo": "Sistema EcoForest: Monitoreo Satelital de Captura de Carbono", "anio": 2023, "estado": "En Ejecución" }
+  ],
+  "publicaciones": [
+    { "id": 1, "idProyecto": 1, "titulo": "Informe Técnico: Evaluación de Resinas a Base de Lignina", "autor": "Dra. Sofía Soto", "anio": 2024, "requiereToken": true },
+    { "id": 2, "idProyecto": 3, "titulo": "Manual de Diseño Estructural en Madera Contralaminada (CLT)", "autor": "Ing. Carlos Mendoza", "anio": 2024, "requiereToken": true },
+    { "id": 3, "idProyecto": 5, "titulo": "Guía Metodológica de Estimación de Biomasa con Datos LIDAR", "autor": "Dr. Esteban Silva", "anio": 2023, "requiereToken": false }
+  ]
+}
